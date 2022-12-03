@@ -10,9 +10,9 @@ import java.io.IOException;
 public class InitDashboard extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(InitDashboard.class.getResource("dash-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 1024, 720);
-        stage.setTitle("Hello!");
+        FXMLLoader fxmlLoader = new FXMLLoader(InitDashboard.class.getResource("login-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+        stage.setTitle("Login!");
         stage.setScene(scene);
         stage.show();
     }
